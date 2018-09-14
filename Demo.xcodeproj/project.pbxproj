@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		DBAC6D8A20E320370054625C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAC6D8920E320370054625C /* AppDelegate.swift */; };
-		DBAC6D8C20E320370054625C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAC6D8B20E320370054625C /* ViewController.swift */; };
 		DBAC6D8F20E320370054625C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBAC6D8D20E320370054625C /* Main.storyboard */; };
 		DBAC6D9120E320370054625C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBAC6D9020E320370054625C /* Assets.xcassets */; };
 		DBAC6D9420E320370054625C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBAC6D9220E320370054625C /* LaunchScreen.storyboard */; };
 		DBAC6D9F20E320370054625C /* DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAC6D9E20E320370054625C /* DemoTests.swift */; };
 		DBAC6DAA20E320370054625C /* DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAC6DA920E320370054625C /* DemoUITests.swift */; };
+		DBB20420212FED2B00C83AB4 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB2041F212FED2B00C83AB4 /* DetailViewController.swift */; };
+		DBDFC30D212F9DC0002049C0 /* PlacesVietnam.plist in Resources */ = {isa = PBXBuildFile; fileRef = DBDFC30C212F9DBE002049C0 /* PlacesVietnam.plist */; };
+		DBDFC30F212F9F46002049C0 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDFC30E212F9F46002049C0 /* DataService.swift */; };
+		DBDFC311212F9F72002049C0 /* PlacesVietnam.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDFC310212F9F72002049C0 /* PlacesVietnam.swift */; };
+		DBDFC313212F9FCD002049C0 /* MasterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDFC312212F9FCD002049C0 /* MasterTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,6 @@
 /* Begin PBXFileReference section */
 		DBAC6D8620E320370054625C /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBAC6D8920E320370054625C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DBAC6D8B20E320370054625C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DBAC6D8E20E320370054625C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DBAC6D9020E320370054625C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBAC6D9320E320370054625C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,11 @@
 		DBAC6DA520E320370054625C /* DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBAC6DA920E320370054625C /* DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoUITests.swift; sourceTree = "<group>"; };
 		DBAC6DAB20E320370054625C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBB2041F212FED2B00C83AB4 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		DBDFC30C212F9DBE002049C0 /* PlacesVietnam.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PlacesVietnam.plist; sourceTree = "<group>"; };
+		DBDFC30E212F9F46002049C0 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		DBDFC310212F9F72002049C0 /* PlacesVietnam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesVietnam.swift; sourceTree = "<group>"; };
+		DBDFC312212F9FCD002049C0 /* MasterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +106,15 @@
 			isa = PBXGroup;
 			children = (
 				DBAC6D8920E320370054625C /* AppDelegate.swift */,
-				DBAC6D8B20E320370054625C /* ViewController.swift */,
+				DBDFC30E212F9F46002049C0 /* DataService.swift */,
+				DBDFC310212F9F72002049C0 /* PlacesVietnam.swift */,
+				DBDFC312212F9FCD002049C0 /* MasterTableViewController.swift */,
+				DBB2041F212FED2B00C83AB4 /* DetailViewController.swift */,
 				DBAC6D8D20E320370054625C /* Main.storyboard */,
 				DBAC6D9020E320370054625C /* Assets.xcassets */,
 				DBAC6D9220E320370054625C /* LaunchScreen.storyboard */,
 				DBAC6D9520E320370054625C /* Info.plist */,
+				DBDFC30C212F9DBE002049C0 /* PlacesVietnam.plist */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -233,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBAC6D9420E320370054625C /* LaunchScreen.storyboard in Resources */,
+				DBDFC30D212F9DC0002049C0 /* PlacesVietnam.plist in Resources */,
 				DBAC6D9120E320370054625C /* Assets.xcassets in Resources */,
 				DBAC6D8F20E320370054625C /* Main.storyboard in Resources */,
 			);
@@ -259,8 +272,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBAC6D8C20E320370054625C /* ViewController.swift in Sources */,
 				DBAC6D8A20E320370054625C /* AppDelegate.swift in Sources */,
+				DBDFC313212F9FCD002049C0 /* MasterTableViewController.swift in Sources */,
+				DBB20420212FED2B00C83AB4 /* DetailViewController.swift in Sources */,
+				DBDFC30F212F9F46002049C0 /* DataService.swift in Sources */,
+				DBDFC311212F9F72002049C0 /* PlacesVietnam.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
